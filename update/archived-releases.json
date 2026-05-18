@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "status": "archived-incompatible",
+  "reason": "Signed with legacy nuviotv.jks / pre-dlbplus.jks keys. Not compatible with DLBPlus 1.0.0+ updater line. Do not publish as latest.",
+  "signingEra": "legacy-nuviotv",
+  "latestIncompatibleTag": "v0.4.15-dlb.9",
+  "releases": [
+    { "tag": "v0.4.15-dlb.9", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.8", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.7", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.6", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.5", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.4", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.3", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.21", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.20", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.19", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.18", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.17", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.16", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.15", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.14", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.13", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.12", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.11", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.10", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.2", "status": "archived", "compatible": false },
+    { "tag": "v0.4.15-dlb.1", "status": "archived", "compatible": false }
+  ]
+}
