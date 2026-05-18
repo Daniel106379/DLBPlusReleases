@@ -6,17 +6,23 @@ Public release-assets repository for DLBPlus Android TV. Source code lives in th
 
 | Field | Value |
 |-------|--------|
-| Latest version | **1.0.11** (versionCode **12**) |
-| Git tag | `v1.0.11` |
+| Latest version | **1.0.12** (versionCode **13**) |
+| Git tag | `v1.0.12` |
 | Signing | `dlbplus.jks` |
 | Primary APK asset | `app-universal-release.apk` |
 
-The in-app updater calls GitHub `GET /repos/Daniel106379/DLBPlusReleases/releases/latest`. **Publishing `v1.0.11` on GitHub Releases makes it the live update target.**
+The in-app updater calls GitHub `GET /repos/Daniel106379/DLBPlusReleases/releases/latest`. **Publishing `v1.0.12` on GitHub Releases makes it the live update target.**
 
 Human-readable manifests (not read by the app today):
 
 - `update/latest.json` — current release metadata and download URLs
 - `update/archived-releases.json` — pre-1.0.0 tags marked archived/incompatible
+
+## v1.0.12 (2026-05-18)
+
+- Fixed Top Movies/TV Shows This Week to use portrait ranking cards with giant Netflix-style numbers
+- Restored rank detection for Discover+ catalog ids after rail title rename
+- Preserved landscape logos, chips, Coming Soon badges, and DPAD fixes
 
 ## v1.0.11 (2026-05-18)
 
@@ -92,7 +98,7 @@ All `v0.4.15-dlb.*` GitHub releases used legacy signing and are **incompatible**
 
 ## Publish checklist
 
-1. Build from `DLBPlusFrontend` at `versionName=1.0.11`, `versionCode=12` with `dlbplus.jks`.
-2. Create GitHub Release tag **`v1.0.11`** (must be newer than any archived tag for the updater).
+1. Build from `DLBPlusFrontend` at `versionName=1.0.12`, `versionCode=13` with `dlbplus.jks`.
+2. Create GitHub Release tag **`v1.0.12`** (must be newer than any archived tag for the updater).
 3. Upload at minimum **`app-universal-release.apk`** (optional per-ABI splits).
 4. Do **not** commit APK binaries to this git repo; assets live on GitHub Releases only.
