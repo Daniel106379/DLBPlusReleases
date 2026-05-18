@@ -3,27 +3,27 @@
   "era": "dlbplus-signing",
   "updaterSource": "github-releases-latest",
   "latest": {
-    "tag": "v1.0.5",
-    "versionName": "1.0.5",
-    "versionCode": 6,
-    "releaseName": "DLBPlus 1.0.5",
+    "tag": "v1.0.6",
+    "versionName": "1.0.6",
+    "versionCode": 7,
+    "releaseName": "DLBPlus 1.0.6",
     "signingKeystore": "dlbplus.jks",
-    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.5",
+    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.6",
     "assets": {
       "universal": {
         "fileName": "app-universal-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.5/app-universal-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.6/app-universal-release.apk"
       },
       "arm64-v8a": {
         "fileName": "app-arm64-v8a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.5/app-arm64-v8a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.6/app-arm64-v8a-release.apk"
       },
       "armeabi-v7a": {
         "fileName": "app-armeabi-v7a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.5/app-armeabi-v7a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.6/app-armeabi-v7a-release.apk"
       }
     },
-    "notes": "Fixed sidebar/nav colour mismatch. Removed unwanted sidebar transparency/scrim/tint layer. Improved consistency across light and dark themes."
+    "notes": "Version bump for reliable in-app updates from v1.0.4/v1.0.5. Includes sidebar/nav colour fix (solid background, no grey scrim)."
   },
   "minimumSupportedVersionName": "1.0.0",
   "minimumSupportedVersionCode": 1
