@@ -3,27 +3,27 @@
   "era": "dlbplus-signing",
   "updaterSource": "github-releases-latest",
   "latest": {
-    "tag": "v1.0.1",
-    "versionName": "1.0.1",
-    "versionCode": 2,
-    "releaseName": "DLBPlus 1.0.1",
+    "tag": "v1.0.2",
+    "versionName": "1.0.2",
+    "versionCode": 3,
+    "releaseName": "DLBPlus 1.0.2",
     "signingKeystore": "dlbplus.jks",
-    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.1",
+    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.2",
     "assets": {
       "universal": {
         "fileName": "app-universal-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.1/app-universal-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.2/app-universal-release.apk"
       },
       "arm64-v8a": {
         "fileName": "app-arm64-v8a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.1/app-arm64-v8a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.2/app-arm64-v8a-release.apk"
       },
       "armeabi-v7a": {
         "fileName": "app-armeabi-v7a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.1/app-armeabi-v7a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.2/app-armeabi-v7a-release.apk"
       }
     },
-    "notes": "Fixed UK streaming provider logo on hero row 2. Moved IMDb score to hero row 1 beside year. Improved hero metadata layout. Continued dlbplus.jks signing era."
+    "notes": "Fixed hero provider logo to match ARVIO-style inline layout. Limited hero provider logos to six supported UK services. Removed duplicate provider variants. Fixed UK-only certification display. Prevented details page provider-card regression."
   },
   "minimumSupportedVersionName": "1.0.0",
   "minimumSupportedVersionCode": 1
