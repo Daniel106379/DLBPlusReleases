@@ -3,27 +3,27 @@
   "era": "dlbplus-signing",
   "updaterSource": "github-releases-latest",
   "latest": {
-    "tag": "v1.0.6",
-    "versionName": "1.0.6",
-    "versionCode": 7,
-    "releaseName": "DLBPlus 1.0.6",
+    "tag": "v1.0.7",
+    "versionName": "1.0.7",
+    "versionCode": 8,
+    "releaseName": "DLBPlus 1.0.7",
     "signingKeystore": "dlbplus.jks",
-    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.6",
+    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.7",
     "assets": {
       "universal": {
         "fileName": "app-universal-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.6/app-universal-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.7/app-universal-release.apk"
       },
       "arm64-v8a": {
         "fileName": "app-arm64-v8a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.6/app-arm64-v8a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.7/app-arm64-v8a-release.apk"
       },
       "armeabi-v7a": {
         "fileName": "app-armeabi-v7a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.6/app-armeabi-v7a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.7/app-armeabi-v7a-release.apk"
       }
     },
-    "notes": "Version bump for reliable in-app updates from v1.0.4/v1.0.5. Includes sidebar/nav colour fix (solid background, no grey scrim)."
+    "notes": "Home rail polish: focus reset, Top 20 styling, Coming Soon rail with release badges, login flicker fix, cleaner Continue Watching hero, hero provider chip."
   },
   "minimumSupportedVersionName": "1.0.0",
   "minimumSupportedVersionCode": 1
