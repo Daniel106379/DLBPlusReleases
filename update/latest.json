@@ -3,27 +3,27 @@
   "era": "dlbplus-signing",
   "updaterSource": "github-releases-latest",
   "latest": {
-    "tag": "v1.0.14",
-    "versionName": "1.0.14",
-    "versionCode": 15,
-    "releaseName": "DLBPlus 1.0.14",
+    "tag": "v1.0.15",
+    "versionName": "1.0.15",
+    "versionCode": 16,
+    "releaseName": "DLBPlus 1.0.15",
     "signingKeystore": "dlbplus.jks",
-    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.14",
+    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.15",
     "assets": {
       "universal": {
         "fileName": "app-universal-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.14/app-universal-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.15/app-universal-release.apk"
       },
       "arm64-v8a": {
         "fileName": "app-arm64-v8a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.14/app-arm64-v8a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.15/app-arm64-v8a-release.apk"
       },
       "armeabi-v7a": {
         "fileName": "app-armeabi-v7a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.14/app-armeabi-v7a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.15/app-armeabi-v7a-release.apk"
       }
     },
-    "notes": "Removed global landscape/portrait override; fixed Top ranking portrait rails with numbers; kept normal rails landscape; preserved card width and corner radius settings."
+    "notes": "Search page now opens with browse rails instead of keyboard. Added TMDb Trending, Collections, Franchises and extra browse rails. Added collapsible TV keyboard with letters/numbers toggle. Added collection/franchise result pages. Improved DPAD focus behaviour. Sorted collection/franchise items by release date. Cleaned search hero metadata without affecting Home hero."
   },
   "minimumSupportedVersionName": "1.0.0",
   "minimumSupportedVersionCode": 1
