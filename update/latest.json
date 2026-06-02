@@ -3,27 +3,27 @@
   "era": "dlbplus-signing",
   "updaterSource": "github-releases-latest",
   "latest": {
-    "tag": "v1.0.16",
-    "versionName": "1.0.16",
-    "versionCode": 17,
-    "releaseName": "DLBPlus 1.0.16",
+    "tag": "v1.0.17",
+    "versionName": "1.0.17",
+    "versionCode": 18,
+    "releaseName": "DLBPlus 1.0.17",
     "signingKeystore": "dlbplus.jks",
-    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.16",
+    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.17",
     "assets": {
       "universal": {
         "fileName": "app-universal-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.16/app-universal-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.17/app-universal-release.apk"
       },
       "arm64-v8a": {
         "fileName": "app-arm64-v8a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.16/app-arm64-v8a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.17/app-arm64-v8a-release.apk"
       },
       "armeabi-v7a": {
         "fileName": "app-armeabi-v7a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.16/app-armeabi-v7a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.17/app-armeabi-v7a-release.apk"
       }
     },
-    "notes": "Fixed main-profile login crash on Continue Watching for long-running series. Restored Continue Watching and Next Up for later-season progress. Scoped TMDB episode loading to watched seasons and hardened sync handling."
+    "notes": "TMDb landscape cards prefer English title backdrops when available. Hero backgrounds remain normal cinematic w1920 backdrops. Logo overlay suppressed when card image already contains title artwork."
   },
   "minimumSupportedVersionName": "1.0.0",
   "minimumSupportedVersionCode": 1
