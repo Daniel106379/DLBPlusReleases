@@ -18,6 +18,14 @@ Human-readable manifests (not read by the app today):
 - `update/latest.json` — current release metadata and download URLs
 - `update/archived-releases.json` — pre-1.0.0 tags marked archived/incompatible
 
+## Plugin manifest (DLBPlus app)
+
+Public plugin repository URL for the curated English minimal scraper set:
+
+`https://raw.githubusercontent.com/Daniel106379/DLBPlusReleases/main/plugins/dlbplus-english-minimal-manifest.json`
+
+Add that URL in **Settings → Plugins → Add repository** on the Fire Stick / Android TV app.
+
 ## v1.0.12 (2026-05-18)
 
 - Fixed Top Movies/TV Shows This Week to use portrait ranking cards with giant Netflix-style numbers
