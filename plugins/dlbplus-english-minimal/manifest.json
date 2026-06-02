@@ -1,0 +1,98 @@
+{
+  "name": "DLBPlus English Minimal",
+  "version": "1.0.0",
+  "description": "Curated English-focused scrapers for DLBPlus. Provider scripts are loaded from the All-in-One-Nuvio repository.",
+  "scrapers": [
+    {
+      "id": "playimdb",
+      "name": "PlayIMDb (Movies)",
+      "description": "High-speed direct streaming for movies (IMDb ID extract)",
+      "version": "1.1.4",
+      "author": "Mukesh",
+      "supportedTypes": ["movie"],
+      "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/playimdb.js",
+      "enabled": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "https://i.postimg.cc/KzjPtYWY/imdb.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "playimdb_series",
+      "name": "PlayIMDb (Series)",
+      "description": "High-speed direct streaming for TV shows (StreamIMDb extract)",
+      "version": "1.2.1",
+      "author": "Mukesh",
+      "supportedTypes": ["tv"],
+      "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/playimdb_v2.js",
+      "enabled": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "https://i.postimg.cc/KzjPtYWY/imdb.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "dahmermovies",
+      "name": "Dahmermovies",
+      "description": "1080p Movies from Dahmermovies",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/dahmermovies.js",
+      "enabled": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "https://i.postimg.cc/hGt3dV6Z/dhamermovies.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "dahmermovies-tv",
+      "name": "Dahmermovies-TV",
+      "description": "Dahmermovies variant tuned for Android TV / Fire TV",
+      "version": "1.0.1",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/dahmermovies-4k.js",
+      "enabled": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "https://i.postimg.cc/hGt3dV6Z/dhamermovies.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "netmirror",
+      "name": "NetMirror",
+      "description": "Netflix | Prime | Disney style catalogue",
+      "version": "1.0.0",
+      "author": "Dustincos",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/netmirror.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8", "mkv"],
+      "logo": "https://i.postimg.cc/L64M3bYV/netmirror.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "4khdhubnew",
+      "name": "4KHDHub-NEW",
+      "description": "4KHDHub with broad movie and series coverage",
+      "version": "2.0.0",
+      "author": "Xyr0nX",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/4khdhubnew.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/DZpW6Xfb/4khdhub.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "4khdhub",
+      "name": "4KHDHub",
+      "description": "4KHDHub direct links (legacy; disable if redundant with 4KHDHub-NEW)",
+      "version": "1.0.1",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/4khdhub.js",
+      "enabled": false,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/DZpW6Xfb/4khdhub.png",
+      "contentLanguage": ["en"]
+    }
+  ]
+}

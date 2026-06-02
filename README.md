@@ -22,9 +22,9 @@ Human-readable manifests (not read by the app today):
 
 Public plugin repository URL for the curated English minimal scraper set:
 
-`https://raw.githubusercontent.com/Daniel106379/DLBPlusReleases/main/plugins/dlbplus-english-minimal-manifest.json`
+`https://raw.githubusercontent.com/Daniel106379/DLBPlusReleases/main/plugins/dlbplus-english-minimal/manifest.json`
 
-Add that URL in **Settings → Plugins → Add repository** on the Fire Stick / Android TV app.
+Add that URL in **Settings → Plugins → Add repository** on the Fire Stick / Android TV app. The app expects URLs ending in `/manifest.json` (it appends that suffix to bare repo paths).
 
 ## v1.0.12 (2026-05-18)
 
