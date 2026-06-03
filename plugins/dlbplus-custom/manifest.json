@@ -1,0 +1,71 @@
+{
+  "name": "DLBPlus Custom",
+  "version": "1.0.0",
+  "description": "English minimal scrapers plus a slot for your own hosted scraper JS. Edit providers/my-scraper.js then set enabled true.",
+  "scrapers": [
+    {
+      "id": "dahmermovies",
+      "name": "Dahmermovies",
+      "description": "1080p Movies from Dahmermovies",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/dahmermovies.js",
+      "enabled": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "https://i.postimg.cc/hGt3dV6Z/dhamermovies.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "dahmermovies-tv",
+      "name": "Dahmermovies-TV",
+      "description": "Dahmermovies variant tuned for Android TV / Fire TV",
+      "version": "1.0.1",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/dahmermovies-4k.js",
+      "enabled": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "https://i.postimg.cc/hGt3dV6Z/dhamermovies.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "netmirror",
+      "name": "NetMirror",
+      "description": "Netflix | Prime | Disney style catalogue",
+      "version": "1.0.0",
+      "author": "Dustincos",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/netmirror.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8", "mkv"],
+      "logo": "https://i.postimg.cc/L64M3bYV/netmirror.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "4khdhubnew",
+      "name": "4KHDHub-NEW",
+      "description": "4KHDHub with broad movie and series coverage",
+      "version": "2.0.0",
+      "author": "Xyr0nX",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/4khdhubnew.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://i.postimg.cc/DZpW6Xfb/4khdhub.png",
+      "contentLanguage": ["en"]
+    },
+    {
+      "id": "my-scraper",
+      "name": "My Custom Scraper",
+      "description": "Your scraper — edit providers/my-scraper.js on this repo, then set enabled true.",
+      "version": "1.0.0",
+      "author": "You",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "https://raw.githubusercontent.com/Daniel106379/DLBPlusReleases/main/plugins/dlbplus-custom/providers/my-scraper.js",
+      "enabled": false,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["en"]
+    }
+  ]
+}
