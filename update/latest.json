@@ -3,27 +3,27 @@
   "era": "dlbplus-signing",
   "updaterSource": "github-releases-latest",
   "latest": {
-    "tag": "v1.0.18",
-    "versionName": "1.0.18",
-    "versionCode": 19,
-    "releaseName": "DLBPlus 1.0.18",
+    "tag": "v1.0.22",
+    "versionName": "1.0.22",
+    "versionCode": 23,
+    "releaseName": "DLBPlus 1.0.22",
     "signingKeystore": "dlbplus.jks",
-    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.18",
+    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.22",
     "assets": {
       "universal": {
         "fileName": "app-universal-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.18/app-universal-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.22/app-universal-release.apk"
       },
       "arm64-v8a": {
         "fileName": "app-arm64-v8a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.18/app-arm64-v8a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.22/app-arm64-v8a-release.apk"
       },
       "armeabi-v7a": {
         "fileName": "app-armeabi-v7a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.18/app-armeabi-v7a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.22/app-armeabi-v7a-release.apk"
       }
     },
-    "notes": "Netflix-style Top 10 ranked portrait cards with white numerals and two-digit layout for ranks 10-20. Includes TMDb English title backdrop card artwork from 1.0.17."
+    "notes": "Details page flicker-free layout with faster open; Settings Library Status page; tab/focus polish across Details, Search, and My List."
   },
   "minimumSupportedVersionName": "1.0.0",
   "minimumSupportedVersionCode": 1
