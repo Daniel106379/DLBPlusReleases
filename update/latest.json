@@ -3,27 +3,27 @@
   "era": "dlbplus-signing",
   "updaterSource": "github-releases-latest",
   "latest": {
-    "tag": "v1.0.22",
-    "versionName": "1.0.22",
-    "versionCode": 23,
-    "releaseName": "DLBPlus 1.0.22",
+    "tag": "v1.0.23",
+    "versionName": "1.0.23",
+    "versionCode": 24,
+    "releaseName": "DLBPlus 1.0.23",
     "signingKeystore": "dlbplus.jks",
-    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.22",
+    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.23",
     "assets": {
       "universal": {
         "fileName": "app-universal-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.22/app-universal-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.23/app-universal-release.apk"
       },
       "arm64-v8a": {
         "fileName": "app-arm64-v8a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.22/app-arm64-v8a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.23/app-arm64-v8a-release.apk"
       },
       "armeabi-v7a": {
         "fileName": "app-armeabi-v7a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.22/app-armeabi-v7a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.23/app-armeabi-v7a-release.apk"
       }
     },
-    "notes": "Details page flicker-free layout with faster open; Settings Library Status page; tab/focus polish across Details, Search, and My List."
+    "notes": "App Update dialog DPAD navigation, button label wrapping, and changelog focus border fixes."
   },
   "minimumSupportedVersionName": "1.0.0",
   "minimumSupportedVersionCode": 1
