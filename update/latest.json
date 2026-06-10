@@ -3,27 +3,27 @@
   "era": "dlbplus-signing",
   "updaterSource": "github-releases-latest",
   "latest": {
-    "tag": "v1.0.48",
-    "versionName": "1.0.48",
-    "versionCode": 49,
-    "releaseName": "DLBPlus 1.0.48",
+    "tag": "v1.0.49",
+    "versionName": "1.0.49",
+    "versionCode": 50,
+    "releaseName": "DLBPlus 1.0.49",
     "signingKeystore": "dlbplus.jks",
-    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.48",
+    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.49",
     "assets": {
       "universal": {
         "fileName": "app-universal-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.48/app-universal-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.49/app-universal-release.apk"
       },
       "arm64-v8a": {
         "fileName": "app-arm64-v8a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.48/app-arm64-v8a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.49/app-arm64-v8a-release.apk"
       },
       "armeabi-v7a": {
         "fileName": "app-armeabi-v7a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.48/app-armeabi-v7a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.49/app-armeabi-v7a-release.apk"
       }
     },
-    "notes": "Movies and TV hubs open on Trending content first with Streaming Services above via UP. Provider mode adds branded hero rails (Trending/New/genres) with BACK exits to normal hub focus."
+    "notes": "Fix cold-boot CW hero/focus mismatch via stable-key hero binding. Provider mode now shows content hero when browsing catalog rails; provider branding only on Streaming Services tile focus."
   },
   "minimumSupportedVersionName": "1.0.0",
   "minimumSupportedVersionCode": 1
