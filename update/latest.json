@@ -3,27 +3,27 @@
   "era": "dlbplus-signing",
   "updaterSource": "github-releases-latest",
   "latest": {
-    "tag": "v1.0.70",
-    "versionName": "1.0.70",
-    "versionCode": 71,
-    "releaseName": "DLBPlus 1.0.70",
+    "tag": "v1.0.71",
+    "versionName": "1.0.71",
+    "versionCode": 72,
+    "releaseName": "DLBPlus 1.0.71",
     "signingKeystore": "dlbplus.jks",
-    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.70",
+    "releaseUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/tag/v1.0.71",
     "assets": {
       "universal": {
         "fileName": "app-universal-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.70/app-universal-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.71/app-universal-release.apk"
       },
       "arm64-v8a": {
         "fileName": "app-arm64-v8a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.70/app-arm64-v8a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.71/app-arm64-v8a-release.apk"
       },
       "armeabi-v7a": {
         "fileName": "app-armeabi-v7a-release.apk",
-        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.70/app-armeabi-v7a-release.apk"
+        "downloadUrl": "https://github.com/Daniel106379/DLBPlusReleases/releases/download/v1.0.71/app-armeabi-v7a-release.apk"
       }
     },
-    "notes": "Details polish: SVG provider pills, fix squashed hero buttons, intentional scroll for rails."
+    "notes": "Search idle browse: stacked multi-rail layout like Home instead of single-rail carousel."
   },
   "minimumSupportedVersionName": "1.0.0",
   "minimumSupportedVersionCode": 1
