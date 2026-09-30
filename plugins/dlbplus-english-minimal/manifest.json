@@ -1,7 +1,7 @@
 {
   "name": "DLBPlus English Minimal",
-  "version": "1.0.1",
-  "description": "Curated English-focused scrapers for DLBPlus. Provider scripts are loaded from the All-in-One-Nuvio repository.",
+  "version": "1.0.2",
+  "description": "Curated English-focused scrapers for DLBPlus. Provider scripts are loaded from the DLBPlusReleases repository.",
   "scrapers": [
     {
       "id": "dahmermovies",
@@ -9,12 +9,21 @@
       "description": "1080p Movies from Dahmermovies",
       "version": "1.0.0",
       "author": "Nuvio Team",
-      "supportedTypes": ["movie", "tv"],
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
       "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/dahmermovies.js",
       "enabled": true,
-      "formats": ["mp4", "mkv", "m3u8"],
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
       "logo": "https://i.postimg.cc/hGt3dV6Z/dhamermovies.png",
-      "contentLanguage": ["en"]
+      "contentLanguage": [
+        "en"
+      ]
     },
     {
       "id": "dahmermovies-tv",
@@ -22,25 +31,43 @@
       "description": "Dahmermovies variant tuned for Android TV / Fire TV",
       "version": "1.0.1",
       "author": "Nuvio Team",
-      "supportedTypes": ["movie", "tv"],
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
       "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/dahmermovies-4k.js",
       "enabled": true,
-      "formats": ["mp4", "mkv", "m3u8"],
+      "formats": [
+        "mp4",
+        "mkv",
+        "m3u8"
+      ],
       "logo": "https://i.postimg.cc/hGt3dV6Z/dhamermovies.png",
-      "contentLanguage": ["en"]
+      "contentLanguage": [
+        "en"
+      ]
     },
     {
       "id": "netmirror",
       "name": "NetMirror",
       "description": "Netflix | Prime | Disney style catalogue",
-      "version": "1.0.0",
-      "author": "Dustincos",
-      "supportedTypes": ["movie", "tv"],
-      "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/netmirror.js",
+      "version": "1.0.1",
+      "author": "Dustincos / DLBPlus",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "https://raw.githubusercontent.com/Daniel106379/DLBPlusReleases/main/plugins/dlbplus-english-minimal/netmirror.js",
       "enabled": true,
-      "formats": ["mp4", "m3u8", "mkv"],
+      "formats": [
+        "mp4",
+        "m3u8",
+        "mkv"
+      ],
       "logo": "https://i.postimg.cc/L64M3bYV/netmirror.png",
-      "contentLanguage": ["en"]
+      "contentLanguage": [
+        "en"
+      ]
     },
     {
       "id": "4khdhubnew",
@@ -48,12 +75,20 @@
       "description": "4KHDHub with broad movie and series coverage",
       "version": "2.0.0",
       "author": "Xyr0nX",
-      "supportedTypes": ["movie", "tv"],
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
       "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/4khdhubnew.js",
       "enabled": true,
-      "formats": ["mp4", "m3u8"],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
       "logo": "https://i.postimg.cc/DZpW6Xfb/4khdhub.png",
-      "contentLanguage": ["en"]
+      "contentLanguage": [
+        "en"
+      ]
     },
     {
       "id": "4khdhub",
@@ -61,12 +96,20 @@
       "description": "4KHDHub direct links (legacy; disable if redundant with 4KHDHub-NEW)",
       "version": "1.0.1",
       "author": "Nuvio Team",
-      "supportedTypes": ["movie", "tv"],
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
       "filename": "https://raw.githubusercontent.com/D3adlyRocket/All-in-One-Nuvio/main/providers/4khdhub.js",
       "enabled": false,
-      "formats": ["mp4", "m3u8"],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
       "logo": "https://i.postimg.cc/DZpW6Xfb/4khdhub.png",
-      "contentLanguage": ["en"]
+      "contentLanguage": [
+        "en"
+      ]
     }
   ]
 }
